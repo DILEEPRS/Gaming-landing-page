@@ -8,6 +8,7 @@
 
 .firstpage{
    background-image: url(./Assets/Photos/futuristic-bg.png) ;
+   background-image: url(./Assets/Photos/futuristic-bg.png) ;
    background-repeat: no-repeat;
    background-size: cover;
    width: 100%;
@@ -189,5 +190,15 @@
     background-color: rgb(250, 250, 255);
     
     
+
+  }
+
+  .playbutton{
+    position: absolute;
+    top:25%;
+    left: 60%;   
+  
+ 
+
 
   }
