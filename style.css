@@ -294,8 +294,85 @@
     position: relative;
     left:150px; 
     
-
-  
-
  }
 
+ .img11{
+  background-image: url(./Assets/Photos/image\ 1.png);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+ }
+ .img11:hover{
+  background-image: url(./Assets/Photos/image\ 1.png);
+  background-position:right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(1.5);
+  transition: all 0.5s ease;
+  filter: drop-shadow(20px 16px 10px rgb(197, 106, 106));
+
+
+ }
+ .img12{
+  background-image: url(./Assets/Photos/image\ 2.png);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+ }
+ .img12:hover{
+  background-image: url(./Assets/Photos/image\ 2.png);
+  background-position:70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(1.5);
+  transition: all 0.5s ease;
+  filter: drop-shadow(20px 16px 10px rgb(197, 106, 106));
+
+
+ }
+ .img13{
+  background-image: url(./Assets/Photos/image\ 3.png);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+ }
+ .img13:hover{
+  background-image: url(./Assets/Photos/image\ 3.png);
+  background-position:80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(1.5);
+  transition: all 0.5s ease;
+  filter: drop-shadow(20px 16px 10px rgb(197, 106, 106));
+
+
+ }
+ .img14{
+  background-image: url(./Assets/Photos/image\ 4.png);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+ }
+ .img14:hover{
+  background-image: url(./Assets/Photos/image\ 4.png);
+  background-position:80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(1.5);
+  transition: all 0.3s ease-in-out;
+  filter: drop-shadow(20px 16px 10px rgb(197, 106, 106));
+
+
+ }
