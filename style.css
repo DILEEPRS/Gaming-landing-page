@@ -229,6 +229,16 @@
       display: inline;
  }
 
+ .playbutton:hover {
+      position: relative;
+      top:20%;
+      left:30%;
+      display: inline;
+      transform: scale(1.5);
+      transition: all 0.5s ease;
+      filter: drop-shadow(20px 16px 10px rgb(168, 156, 156));
+ }
+
 
  .title1{
     
@@ -288,3 +298,4 @@
   
 
  }
+
