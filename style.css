@@ -268,7 +268,8 @@
  .second-page{
    width:100%;
    height:100vh;
-
+   background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(130,26,26,1) 0%, rgba(33,201,191,1) 0%, rgba(244,105,76,1) 0%, rgba(231,82,66,1) 0%, rgba(20,7,7,1) 100%, rgba(0,0,0,1) 100%, rgba(168,140,118,1) 100%, rgba(191,105,144,1) 100%, rgba(198,101,131,1) 100%, rgba(191,129,105,0.8239670868347339) 100%, rgba(32,201,192,1) 100%, rgba(203,120,119,1) 100%, rgba(236,105,105,1) 100%, rgba(0,212,255,1) 100%);
  }
 
  .secondheading{
@@ -290,7 +291,7 @@
 
     width:250px;
     height: 300px;
-    border:1px solid red;
+    
     position: relative;
     left:150px; 
     
@@ -305,17 +306,9 @@
 
 
  }
- .img11:hover{
-  background-image: url(./Assets/Photos/image\ 1.png);
-  background-position:right;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform: scale(1.5);
-  transition: all 0.5s ease;
-  filter: drop-shadow(20px 16px 10px rgb(197, 106, 106));
 
 
- }
+ 
  .img12{
   background-image: url(./Assets/Photos/image\ 2.png);
   background-position:center;
@@ -325,17 +318,9 @@
 
 
  }
- .img12:hover{
-  background-image: url(./Assets/Photos/image\ 2.png);
-  background-position:70%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform: scale(1.5);
-  transition: all 0.5s ease;
-  filter: drop-shadow(20px 16px 10px rgb(197, 106, 106));
 
 
- }
+ 
  .img13{
   background-image: url(./Assets/Photos/image\ 3.png);
   background-position:center;
@@ -345,17 +330,8 @@
 
 
  }
- .img13:hover{
-  background-image: url(./Assets/Photos/image\ 3.png);
-  background-position:80%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform: scale(1.5);
-  transition: all 0.5s ease;
-  filter: drop-shadow(20px 16px 10px rgb(197, 106, 106));
 
-
- }
+ 
  .img14{
   background-image: url(./Assets/Photos/image\ 4.png);
   background-position:center;
@@ -365,17 +341,7 @@
 
 
  }
- .img14:hover{
-  background-image: url(./Assets/Photos/image\ 4.png);
-  background-position:80%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform: scale(1.5);
-  transition: all 0.3s ease-in-out;
-  filter: drop-shadow(20px 16px 10px rgb(197, 106, 106));
 
-
- }
 
 
  .img11 div{
@@ -384,4 +350,18 @@
   width:100%;
   height:10vh;
   backdrop-filter: blur(20px);
+ }
+
+
+ .img111:hover{
+
+  position: relative;
+  z-index: 2;
+  background-position:right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(1.5);
+  transition: all 0.5s ease;
+  filter: drop-shadow(20px 16px 10px rgb(110, 97, 97));
+ 
  }
