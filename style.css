@@ -2,6 +2,7 @@
     margin-top: 0px;
     margin-left: 0px;
     box-sizing: border-box;
+    outline: 1px solid white;
     
 
     
@@ -279,89 +280,48 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(130,26,26,1) 0%, rgb
 
  
  }
+ .secondheading:hover{
+      text-align:center; 
+      font-size: 55px;
+      padding:40px 0px;
+      color: #e7e7e7;
 
-
- .secondhero {
-    display: flex;
-    gap:30px
-    
- } 
-
- .secondhero span{
-
-    width:250px;
-    height: 300px;
-    
-    position: relative;
-    left:150px; 
-    
+      
  }
 
- .img11{
-  background-image: url(./Assets/Photos/image\ 1.png);
-  background-position:center;
-  background-repeat: no-repeat;
-  background-size: cover;
+ .scroll{
 
-
+  display: flex;
 
  }
 
 
- 
- .img12{
-  background-image: url(./Assets/Photos/image\ 2.png);
-  background-position:center;
-  background-repeat: no-repeat;
-  background-size: cover;
+ .card1 {
+   
+   width:270px;
+   height:300px;
+   background-image: url(./Assets/Photos/image\ 1.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border: 1px solid white;
+   d
 
+ }
+
+ .carddetails{
+   width:100%
+   display: flex;
 
 
  }
 
-
- 
- .img13{
-  background-image: url(./Assets/Photos/image\ 3.png);
-  background-position:center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+ .leftcard{
 
 
  }
 
- 
- .img14{
-  background-image: url(./Assets/Photos/image\ 4.png);
-  background-position:center;
-  background-repeat: no-repeat;
-  background-size: cover;
+ .rightcard{
 
 
-
- }
-
-
-
- .img11 div{
-  position: relative;
-  top:80%;
-  width:100%;
-  height:10vh;
-  backdrop-filter: blur(20px);
- }
-
-
- .img111:hover{
-
-  position: relative;
-  z-index: 2;
-  background-position:right;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform: scale(1.5);
-  transition: all 0.5s ease;
-  filter: drop-shadow(20px 16px 10px rgb(110, 97, 97));
- 
  }
