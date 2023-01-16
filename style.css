@@ -526,7 +526,7 @@ background: linear-gradient(318deg, rgba(2,0,36,1) 0%, rgba(130,26,26,1) 0%, rgb
 
 .top h1{
  font-weight:800;
- margin-left: 100px;
+ margin-left: 140px;
  color: #ffffff;
 
 }
@@ -541,8 +541,145 @@ background: linear-gradient(318deg, rgba(2,0,36,1) 0%, rgba(130,26,26,1) 0%, rgb
 
  width:100%;
  height:80vh;
+ display: grid;
+ grid-template-columns: 50% 50%;
+ justify-items:center;
 
+}
+
+
+.newcard1{
+  width:450px;
+  height: 250px;
+  
+  display: flex;
 
 
 
 }
+.newcard2{
+  width:450px;
+  height: 250px;
+  
+  display: flex;
+
+
+
+}
+.newcard3{
+  width:450px;
+  height: 250px;
+  
+  display: flex;
+
+
+
+}
+.newcard4{
+  width:450px;
+  height: 250px;
+  
+  display: flex;
+
+
+
+}
+
+.left-game{
+  width:40%;
+  height: 100%;
+  background-image: url(./Assets/Photos/Rectangle\ 75.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.right-game{
+  width:60%;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.left-game2{
+  width:40%;
+  height: 100%;
+  background-image: url(./Assets/Photos/Rectangle\ 76.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.right-game2{
+  width:60%;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.left-game3{
+  width:40%;
+  height: 100%;
+  background-image: url(./Assets/Photos/Rectangle\ 77.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.right-game3{
+  width:60%;
+  background-color: rgb(0, 0, 0);
+
+}
+.left-game4{
+  width:40%;
+  height: 100%;
+  background-image: url(./Assets/Photos/Rectangle\ 78.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.right-game4{
+  width:60%;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.title{
+ color: white;
+ padding: 10px 0px 0px 25px;
+ font-size:20px
+
+}
+
+.type{
+  color:#f4694c;
+  font-size:20px;
+  padding: 5px 0px 0px 25px;
+}
+
+.discript{
+  color: rgb(165, 165, 165);
+  padding: 10px 0px 0px 25px;
+}
+
+.dload{
+  margin:0px 0px 0px 25px;
+  padding: 10px 25px;
+  background-color:#f4694c;
+  color:white;
+
+}
+
+
+.dload:nth-child(n):hover{
+ color:rgb(5, 5, 5);
+ background-color: aliceblue;
+ 
+
+}
+
+
