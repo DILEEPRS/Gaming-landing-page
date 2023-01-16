@@ -3,6 +3,7 @@
   padding:0px;
   box-sizing: border-box;
   font-family: poppins;
+  outline: 1px solid rgb(90, 88, 88);
   
 
 
@@ -12,7 +13,7 @@
 .firstpage{
 
  width:100%;
- 
+ height: 100vh;
  
 
 }
@@ -37,7 +38,8 @@
   align-items: center;
 
   position: absolute;
-  z-index: 1;
+  z-index: 
+  1;
 
 
 }
@@ -239,15 +241,124 @@ left:60%;
 .second-page{
  width:100%;
  height: 100vh;
- 
- 
+}
+
+
+.second-page h1{
+   font-size:3em;
+   text-align: center;
+   padding:20px 0px;
 
 
 
 }
 
-.second-page h1{
-  color:white;
- 
+.card-row{
+  display: flex;
+  justify-content: space-evenly;
 
+
+}
+
+
+.card1{
+
+   width:250px;
+   height: 350px;
+   background-image: url(./Assets/Photos/image\ 1.png);
+   background-position: 70%;
+   background-repeat: no-repeat;
+   background-size: cover; 
+}
+
+.card2{
+
+   width:250px;
+   height: 350px;
+   background-image: url(./Assets/Photos/image\ 2.png);
+   background-position: 50%;
+   background-repeat: no-repeat;
+   background-size: cover; 
+}
+
+.card3{
+
+   width:250px;
+   height: 350px;
+   background-image: url(./Assets/Photos/image\ 3.png);
+   background-position: 50%;
+   background-repeat: no-repeat;
+   background-size: cover; 
+}
+
+.card4{
+
+   width:250px;
+   height: 350px;
+   background-image: url(./Assets/Photos/image\ 4.png);
+   background-position: 50%;
+   background-repeat: no-repeat;
+   background-size: cover; 
+}
+
+
+.card1:hover{
+
+  transform: scale(1.2); 
+  transition: all 0.4s ease-in-out; 
+}
+.card2:hover{
+
+  transform: scale(1.2); 
+  transition: all 0.4s ease-in-out; 
+}
+.card3:hover{
+
+  transform: scale(1.2); 
+  transition: all 0.4s ease-in-out; 
+}
+.card4:hover{
+
+  transform: scale(1.2); 
+  transition: all 0.4s ease-in-out; 
+}
+
+.card-content{
+
+  width: 100%;
+  height: 25%;
+  backdrop-filter: blur(10px);
+  position: relative;
+  top:75%;
+  display: flex;
+  padding-left: 10px;
+
+
+}
+
+.card-left{
+ width: 60%;
+
+
+}
+.card-left p:nth-child(1){
+ color:white;
+
+}
+.card-left p:nth-child(2){
+ color:rgb(179, 157, 157);
+
+}
+.card-right{
+  width: 40%;
+
+}
+
+.card-right button{
+
+padding:5px 10px;
+color: white;
+background-color:#f4694c;
+margin-top: 30px;
+margin-left:5px;
 }
