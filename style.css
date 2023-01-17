@@ -585,6 +585,12 @@ background: linear-gradient(318deg, rgba(2,0,36,1) 0%, rgba(130,26,26,1) 0%, rgb
 
 }
 
+.newhover:hover{
+  box-shadow: 5px 5px 30px white;
+
+
+} 
+
 .left-game{
   width:40%;
   height: 100%;
@@ -682,4 +688,12 @@ background: linear-gradient(318deg, rgba(2,0,36,1) 0%, rgba(130,26,26,1) 0%, rgb
 
 }
 
+
+.fifth-page{
+
+ width:100%;
+
+
+
+}
 
