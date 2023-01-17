@@ -3,8 +3,8 @@
   padding:0px;
   box-sizing: border-box;
   font-family: poppins;
-  
-  
+
+  scroll-behavior: smooth;
 
 
   
@@ -692,8 +692,200 @@ background: linear-gradient(318deg, rgba(2,0,36,1) 0%, rgba(130,26,26,1) 0%, rgb
 .fifth-page{
 
  width:100%;
-
+ background-color: black;
 
 
 }
 
+.fifth-top h1{
+
+  color:white;
+  text-align:center;
+  padding:20px;
+  height:20vh;
+  width: 100%;
+
+}
+
+.fifth-hero{
+
+ width:100%;
+ height:80vh;
+ display:flex;
+
+
+}
+
+.fifth-left{
+ width:40%;
+ height: 100%;
+
+}
+
+.fifth-left img{
+  width:70%;
+  margin-left: 50px;
+ 
+
+}
+
+.fifth-right{
+ width:60%;
+ height: 100%;
+}
+
+.fifth-right p{
+  color:rgb(119, 116, 116);
+  font-size: 16px;
+  margin:30px 60px 30px 40px;
+ }
+ .fifth-right h1{
+  position:absolute;
+  margin-left: 25%;;
+  z-index: 2;
+  color:white;
+  font-family: 'Poppins', sans-serif;
+  animation: animate 1.5s linear infinite; 
+
+ }
+ @keyframes animate{ 
+  0%{ 
+    opacity: 0.4; 
+  } 
+  50%{ 
+    opacity: 1.5; 
+  } 
+  100%{ 
+    opacity: 0.5; 
+  } 
+} 
+
+
+ .dancer{
+  width:35%;
+  height: 70%;
+
+ }
+
+ .dancer-friend{
+ width:40%;
+ height: 50%;
+ margin-left: 40px;
+
+ }
+
+
+ .sixth-page{
+ 
+ width:100%;
+ height:100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: rgb(0, 0, 0);
+
+ }
+
+ .sixth-discript{
+  position: absolute;
+  z-index: 2;
+ }
+ .sixth-discript h1{
+ 
+  font-size:3em;
+  text-align: center;
+
+  color:white;
+ }
+
+ .sixth-discript p{
+ color:rgb(161, 158, 158);
+ font-size: 22px;
+ margin-top: 5%;
+ 
+ text-align: center;
+
+ }
+
+ .sixth-discript button{
+  padding: 20px 40px;
+  font-size: 18px;
+  color:white;
+  background-color:#f4694c;
+  margin-left: 30%;
+  margin-top: 5%;
+
+ }
+ .sixth-discript button:hover{
+  color:black;
+  background-color:white;
+
+ }
+
+ .sixth-hero{
+
+  background-image: url(./Assets/Photos/Rectangle\ 606.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  width: 100%;
+  height: 70%;
+  filter: brightness(30%);
+  position: absolute;
+  z-index: 1;
+
+ }
+
+
+ footer{
+ width:100%;
+ height:50vh;
+ display: flex;
+ background-color: black;
+
+
+ }
+
+ .logo-part{
+  width:25%;
+
+
+ }
+
+ .other-info{
+  width:75%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+
+ }
+
+ .other-info span ul li:nth-child(n){
+ color:rgb(170, 170, 170);
+ padding: 10px;
+ list-style-type: none;
+
+ }
+ .other-info span ul li:nth-child(1){
+ color:rgb(255, 255, 255);
+ padding: 10px;
+ list-style-type: none;
+
+ }
+
+ .logo-inner{
+  width: 80%;
+  margin-top:20%;
+
+
+ }
+
+ .logo-inner p{
+  color:rgb(170, 170, 170);
+ padding: 20px;
+
+ }
+
+ .logo-inner img{
+  padding-left: 20px;
+
+ }
